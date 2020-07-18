@@ -1,0 +1,19 @@
+{
+  "name": "ssr-express-test",
+  "version": "1.0.0",
+  "description": "Umi SSR over Express",
+  "main": "index.js",
+  "author": "Skitsanos",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "run": "umi dev",
+    "build": "umi build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "latest",
+    "umi": "^3.2.3",
+    "unirest": "^0.6.0"
+  }
+}
