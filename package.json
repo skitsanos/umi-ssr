@@ -1,7 +1,7 @@
 {
-  "name": "ssr-express-test",
+  "name": "umi-ssr",
   "version": "1.0.0",
-  "description": "Umi SSR over Express",
+  "description": "Umi SSR over HTTP Server, Express and Netlify",
   "main": "index.js",
   "author": "Skitsanos",
   "license": "MIT",
