@@ -11,9 +11,10 @@
     "build": "umi build"
   },
   "dependencies": {
+    "ahooks": "^2.9.1",
     "express": "^4.17.1",
     "react": "latest",
-    "umi": "^3.2.3",
+    "umi": "^3.2.28",
     "unirest": "^0.6.0"
   }
 }
