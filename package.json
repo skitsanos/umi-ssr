@@ -1,20 +1,27 @@
 {
   "name": "umi-ssr",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Umi SSR over HTTP Server, Express and Netlify",
   "main": "index.js",
   "author": "Skitsanos",
   "license": "MIT",
   "private": true,
   "scripts": {
+    "postinstall": "umi setup",
     "run": "umi dev",
-    "build": "umi build"
+    "build": "umi build --clean",
+    "preview": "umi preview"
   },
   "dependencies": {
-    "ahooks": "^2.9.1",
-    "express": "^4.17.1",
-    "react": "latest",
-    "umi": "^4.0.0",
+    "ahooks": "^3.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "umi": "^4.0.9",
     "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.220",
+    "@umijs/plugins": "^4.0.8",
+    "express": "^4.18.1"
   }
 }
