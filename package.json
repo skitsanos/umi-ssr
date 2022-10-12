@@ -11,7 +11,7 @@
     "build": "umi build"
   },
   "dependencies": {
-    "ahooks": "^2.9.1",
+    "ahooks": "^3.7.1",
     "express": "^4.17.1",
     "react": "latest",
     "umi": "^4.0.0",
